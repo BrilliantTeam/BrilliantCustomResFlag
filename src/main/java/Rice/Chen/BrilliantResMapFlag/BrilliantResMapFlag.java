@@ -55,7 +55,7 @@ public class BrilliantResMapFlag extends JavaPlugin implements Listener {
 
         ClaimedResidence res = residence.getResidenceManager().getByLoc(loc);
         if (res != null) {
-            boolean hasPerm = res.getPermissions().playerHas(player, "使用地圖（usemap）", false);
+            boolean hasPerm = res.getPermissions().playerHas(player, "使用地圖（usemap）", true);
             if (!hasPerm) {
                 player.sendMessage("§7｜§6系統§7｜§f飯娘：§7您沒有領地 §e" + res.getName() + " §7的 §e使用地圖（usemap） §7權限。");
                 return false;
