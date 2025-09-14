@@ -1,12 +1,12 @@
-package Rice.Chen.BrilliantResMapFlag;
+package Rice.Chen.BrilliantCustomResFlag;
 
 import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import Rice.Chen.BrilliantResMapFlag.flags.UseMapFlag;
+import Rice.Chen.BrilliantCustomResFlag.flags.UseMapFlag;
 import com.bekvon.bukkit.residence.Residence;
 
-public class BrilliantResMapFlag extends JavaPlugin {
+public class BrilliantCustomResFlag extends JavaPlugin {
 
     private Residence residence;
     private UseMapFlag useMapFlag;
@@ -24,11 +24,11 @@ public class BrilliantResMapFlag extends JavaPlugin {
 
         getServer().getPluginManager().registerEvents(useMapFlag, this);
         useMapFlag.registerFlag();
-        getLogger().info("BrilliantResMapFlag 已啟用。");
+        getLogger().info("BrilliantCustomResFlag 已啟用。");
     }
 
     @Override
     public void onDisable() {
-        getLogger().info("BrilliantResMapFlag 已停用。");
+        getLogger().info("BrilliantCustomResFlag 已停用。");
     }
 }

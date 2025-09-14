@@ -1,6 +1,6 @@
-name: BrilliantResMapFlag
+name: BrilliantCustomResFlag
 version: 1.0
-main: Rice.Chen.BrilliantResMapFlag.BrilliantResMapFlag
+main: Rice.Chen.BrilliantCustomResFlag.BrilliantCustomResFlag
 api-version: 1.20
 folia-supported: true
 depend: [Residence]

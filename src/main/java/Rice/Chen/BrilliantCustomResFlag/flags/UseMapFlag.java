@@ -1,4 +1,4 @@
-package Rice.Chen.BrilliantResMapFlag.flags;
+package Rice.Chen.BrilliantCustomResFlag.flags;
 
 import org.bukkit.Material;
 import org.bukkit.entity.Player;

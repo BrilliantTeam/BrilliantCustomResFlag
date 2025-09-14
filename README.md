@@ -1,4 +1,4 @@
-# BrilliantResMapFlag   
+# BrilliantCustomResFlag   
 註冊自定義權限到 Residence   
 
 ## 「使用地圖（usemap）」

@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>Rice.Chen</groupId>
-    <artifactId>BrilliantResMapFlag</artifactId>
+    <artifactId>BrilliantCustomResFlag</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>BrilliantResMapFlag</name>
+    <name>BrilliantCustomResFlag</name>
 
     <properties>
         <java.version>17</java.version>
